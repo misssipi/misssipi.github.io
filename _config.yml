@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的博客
-subtitle: '记录技术与生活'
-description: '一个关于编程、技术和生活的个人博客'
-keywords: [博客, 技术, 编程]
+title: '05410 Blog'
+subtitle: 'T & L O&O'
+description: 'Let\'s slide along side.'
+keywords: [Blog, Learning, Programming, Life]
 author: misssipi
 language: zh-CN
-timezone: Asia/Shanghai
+timezone: Asia/Beijing
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
