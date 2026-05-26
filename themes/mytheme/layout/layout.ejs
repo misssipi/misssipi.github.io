@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= page.title ? page.title + ' | ' + config.title : config.title %></title>
+  <meta name="description" content="<%= config.description %>">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="particles" id="particles"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo">
+        <span class="logo-icon">&#9670;</span>
+        <%= config.title %>
+      </a>
+      <nav class="main-nav">
+        <% for (name in theme.menu) { %>
+          <a href="<%= theme.menu[name] %>" class="nav-link"><%= name %></a>
+        <% } %>
+        <% if (theme.github) { %>
+          <a href="<%= theme.github %>" class="nav-link" target="_blank">GitHub</a>
+        <% } %>
+      </nav>
+      <button class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('active')">&#9776;</button>
+    </div>
+  </header>
+
+  <%- body %>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; <%= date(new Date(), 'YYYY') %> <strong><%= config.title %></strong></p>
+        <p class="footer-sub"><%= config.subtitle %></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

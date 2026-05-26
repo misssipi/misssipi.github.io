@@ -5,11 +5,11 @@
 # Site
 title: '05410 Blog'
 subtitle: 'T & L O&O'
-description: 'Let\'s slide along side.'
+description: "Let's slide along side."
 keywords: [Blog, Learning, Programming, Life]
 author: misssipi
 language: zh-CN
-timezone: Asia/Beijing
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: mytheme
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
