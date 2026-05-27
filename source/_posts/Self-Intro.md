@@ -66,10 +66,3 @@ I also participate in research on **side-channel analysis** and **post-quantum c
 
 I serve as a **student cadre** and actively participate in **volunteer service**, which has cultivated my sense of responsibility and teamwork skills.
 
-## Future Plans
-
-If I have the honor of joining a research group for graduate studies, I plan to:
-
-1. **Solidify foundations** — Read classic literature and cutting-edge papers in the field, master the necessary tools and methods, and quickly integrate into the team's research rhythm.
-2. **Explore and innovate** — Identify my own research direction, conduct rigorous experiments, analyze results carefully, and strive to produce valuable innovative results and publish high-quality academic papers.
-3. **Sustain growth** — Complete my thesis step by step, continue deepening my expertise in cyberspace security, and keep improving both research capabilities and overall professional qualities.
